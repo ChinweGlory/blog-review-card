@@ -6,6 +6,72 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: hsl(0, 0%, 7%);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: hsl(47, 88%, 63%);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 500px;
+  max-width: 900px;
+}
+
+.content {
+  background: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 300px;
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.label {
+  background-color: hsl(47, 88%, 63%);
+  color: black;
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  color: hsl(0, 0%, 42%);
+  margin: 5px 0;
+}
+
+/* Profile section */
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
